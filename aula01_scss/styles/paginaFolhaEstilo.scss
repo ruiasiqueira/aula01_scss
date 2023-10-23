@@ -1,0 +1,35 @@
+$cor: blue;
+li{
+    color:$cor;
+}
+
+ul{
+    color:$cor;
+}
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      &:visited {
+        color: rgb(255, 72, 0);
+        text-decoration: underline;
+      }
+      &:hover {
+        color: rgb(0, 255, 64);
+        text-decoration: underline;
+      }
+      &:active {
+        color:aqua;
+        text-decoration: underline;
+      }
+    }
+  }  
